@@ -1,3 +1,5 @@
+# Results
+
 ## Controlled Evaluation
 
 The controlled evaluation used single face test images containing both known identities and unknown identities.
@@ -33,11 +35,11 @@ The stress test evaluated the recognition system using group images containing m
 | Stress Test Images | 24 |
 | Detected Faces | 183 |
 | Expected Known Faces | 29 |
-| Correctly Recognized Known Faces | 25 |
-| Missed Known Faces | 4 |
-| Unknown-Classified Faces | 158 |
+| Correctly Recognized Known Faces | 27 |
+| Missed Known Faces | 2 |
+| Unknown-Classified Faces | 156 |
 | False Positive Identities | 0 |
-| Known-Face Stress Accuracy | 86.21% |
+| Known-Face Stress Accuracy | 93.10% |
 
 Detailed results are available in:
 

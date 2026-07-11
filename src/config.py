@@ -7,7 +7,7 @@ EMBEDDINGS_DIR = "data/embeddings"
 MODEL_NAME = "buffalo_l"
 
 # Recognition
-MATCH_THRESHOLD = 0.5
+MATCH_THRESHOLD = 0.63
 
 
 # Camera
