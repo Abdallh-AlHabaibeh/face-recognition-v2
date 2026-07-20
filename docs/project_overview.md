@@ -114,9 +114,9 @@ Results:
 - Stress Test Images: **24**
 - Detected Faces: **183**
 - Expected Known Faces: **29**
-- Correctly Recognized Known Faces: **25**
+- Correctly Recognized Known Faces: **27**
 - False Positive Identities: **0**
-- Known-Face Stress Accuracy: **86.21%**
+- Known-Face Stress Accuracy: **93.10%**
 
 ---
 
