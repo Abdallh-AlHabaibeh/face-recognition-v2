@@ -12,7 +12,9 @@ def initialize_log_file():
     if not os.path.exists(LOG_FILE):
         with open(LOG_FILE, mode="w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["timestamp", "name", "distance", "status"])
+            writer.writerow(
+                ["timestamp", "status", "identity", "distance"]
+            )
 
 
 def log_recognition(name, distance, status):
@@ -20,6 +22,15 @@ def log_recognition(name, distance, status):
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    identity = name if status == "Recognized" else "N/A"
+
     with open(LOG_FILE, mode="a", newline="") as file:
         writer = csv.writer(file)
-        writer.writerow([timestamp, name, round(distance, 4), status])
+        writer.writerow(
+            [
+                timestamp,
+                status,
+                identity,
+                round(distance, 4)
+            ]
+        )
