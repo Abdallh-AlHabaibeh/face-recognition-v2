@@ -115,6 +115,7 @@ Results:
 - Detected Faces: **183**
 - Expected Known Faces: **29**
 - Correctly Recognized Known Faces: **27**
+- Missed Known Faces: **2**
 - False Positive Identities: **0**
 - Known-Face Stress Accuracy: **93.10%**
 
